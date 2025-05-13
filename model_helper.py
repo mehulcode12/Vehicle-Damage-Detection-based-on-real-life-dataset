@@ -1,13 +1,9 @@
-import os
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
 import torch
 import torch.nn as nn
-import torch.optim as optim
 import torch.nn.functional as F
-import time
 import torchvision.models as models
-from matplotlib import pyplot as plt
 from PIL import Image
 
 # Load the pre-trained ResNet model
