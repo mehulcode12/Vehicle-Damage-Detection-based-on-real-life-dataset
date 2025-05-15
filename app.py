@@ -9,7 +9,7 @@ input_image = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 if input_image:
 
     # getting image in binary format and in temp file
-    image_path = "temp_image.jpg"
+    image_path = "\temp_image.jpg"
     with open(image_path, "wb") as f:
         f.write(input_image.getbuffer())
 
