@@ -2,3 +2,5 @@ streamlit
 Pillow
 torch
 torchvision
+fastapi
+io
