@@ -3,4 +3,3 @@ Pillow
 torch
 torchvision
 fastapi
-io
